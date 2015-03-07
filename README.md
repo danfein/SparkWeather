@@ -2,7 +2,7 @@
 Spark Core Weather Station that sends data to Weather Underground
 
 WiFi Weather Station (Spark Core Version)
-Spark Core Wifi Microcontroller Weather station that sends data to wunderground.com for storage and viewing
+Spark Core Wifi Microcontroller Weather station that sends data to Weather Underground for storage and viewing
 
 Notes:
 
