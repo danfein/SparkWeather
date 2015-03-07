@@ -3,9 +3,9 @@ Spark Core Weather Station that sends data to Weather Underground
 
 WiFi Weather Station (Spark Core Version)
 Spark Core Wifi Microcontroller Weather station that sends data to wunderground.com
-Tacked together by Dan Fein
 
 Notes:
+
 -This is a draft and does not include all the sensors a weather station often would, just temp and humidity for now. More to come.
 -This project assumes battery power and has options to save power it will rest for awhile, wake, send data and rest again.
 -You will need to sign up for a free account at wunderground.com, to get your pass
