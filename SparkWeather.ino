@@ -83,9 +83,9 @@ void loop(){
 
 void grabData(){
    	DHT22.acquire();
-    float tempf = (DHT22.getFahrenheit(), 2);
-    float humidity = (DHT22.getHumidity(), 2);
-    float dewptf = (DHT22.getDewPoint());    
+    tempf = (DHT22.getFahrenheit(), 2);
+    humidity = (DHT22.getHumidity(), 2);
+    dewptf = (DHT22.getDewPoint());    
 }
 
 void serial(){
