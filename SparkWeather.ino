@@ -177,8 +177,13 @@ void loop(){
         client.print(humidity);
         client.print("&action=updateraw");//Standard update
         //client.print("&softwaretype=Spark%Core%20version1&action=updateraw&realtime=1&rtfreq=2.5");//Rapid Fire
-        client.println();
-        Serial.println("Upload complete");
+  		client.print(" HTTP/1.0\r\n");
+  		client.print("Accept: text/html\r\n");
+  		client.print("Host: ");
+  		client.print(SERVER);
+  		client.print("\r\n\r\n");
+		Serial.println("Upload complete");
+
 	}
 	else {
           Serial.println(F("Connection failed"));
